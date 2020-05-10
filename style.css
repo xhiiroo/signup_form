@@ -1,0 +1,64 @@
+body {
+    background-image: url(img/background.jpg);
+    font-family: montserrat;
+    color: white;
+    margin-top: 53px;
+}
+
+h3 {
+    text-align: center;
+}
+
+.signUp_template {
+    background: linear-gradient(150deg, #6600ff 0%, #cc00ff 100%);
+    padding: 40px;
+    width: 188px;
+    margin: 0px auto;
+    height: 303px;
+    border-radius: 25px;
+}
+
+.notif {
+    color: red;
+    font-size: 12px;
+}
+
+.signUP_form {
+    margin-bottom: 15px;
+}
+
+.signUP_form input[type="text"],
+.signUP_form input[type="password"] {
+    background: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: white;
+    font-family: montserrat;
+    height: 25px;
+    width: 182px;
+}
+
+.signUP_form_submit input[type="submit"] {
+    background: linear-gradient(150deg, #cc33ff 0%, #ff6600 100%);
+    width: 145px;
+    height: 48px;
+    border: none;
+    font-size: 18px;
+    font-family: montserrat;
+    color: white;
+    border-radius: 10px;
+    margin: 20px;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+.signUP_form input[type="text"],
+.signUP_form input[type="password"],
+.signUP_form_submit input[type="submit"]:focus {
+    outline: none;
+}
+
+.signUP_form_submit input[type="submit"]:hover {
+    background: #ff6600;
+}
